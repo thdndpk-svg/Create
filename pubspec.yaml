@@ -1,0 +1,20 @@
+name: yt_shorts_creator
+description: Auto Shorts Maker - test version
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  webview_flutter: ^4.7.0
+  video_player: ^2.8.2
+  share_plus: ^9.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_shorts.mp4
